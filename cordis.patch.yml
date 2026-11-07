@@ -1,0 +1,6 @@
+# Bundle layer for dsh-account-odometer.
+# One Loader row: the plugin package itself. Its browser half (lib/client.js)
+# is served by dsh-client-modules because package.json declares `dsh.client`.
+- insert:
+    - id: account-odometer
+      name: dsh-account-odometer
